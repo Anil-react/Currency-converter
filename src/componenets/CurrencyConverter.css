@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  border: 1px solid #ccc;
+  padding: 40px 20px;
+  width: 275px;
+  background-image: linear-gradient(#eaedfc, #f6f6f6);
+}
+
+.head-section {
+  text-align: center;
+}
+.head-section h2 {
+  color: #1f2261;
+}
+.head-section p {
+  color: #808080;
+  padding: 20px;
+}
+
+.currency-area {
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 1px #888888;
+  border-radius: 15px;
+}
+.body-section {
+  padding: 20px;
+}
+.body-section h5 {
+  color: #808080;
+  font-weight: 400;
+}
+.body-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+input,
+select {
+  height: 32px;
+  border-radius: 10px;
+}
+
+.horizontal-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.horizontal-line button {
+  font-size: 20px;
+  font-weight: 500;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: #26278d;
+  color: #fff;
+}
+
+.exchange-rate h3 {
+  padding: 20px 0px;
+  font-weight: 400;
+  color: #808080;
+}
+.exchange-rate p {
+  color: #000;
+  font-weight: 500;
+}
